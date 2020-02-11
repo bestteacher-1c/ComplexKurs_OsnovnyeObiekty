@@ -2,9 +2,7 @@
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf61db2-8db9-4efc-8c0c-1dbcf95d2d3a">
   <producedTypes>
     <objectType typeId="3e7ea9d5-2074-4314-bca6-9e6f19bc4ade" valueTypeId="78d1fa39-b1e6-4c57-960f-fc1b76472ebd"/>
-    <refType typeId="8e280a2d-2711-426b-838b-b15fa274876d" valueTypeId="31b0fb27-bcf6-4e30-b2cb-7789128cd59b">
-      <emptyRef/>
-    </refType>
+    <refType typeId="8e280a2d-2711-426b-838b-b15fa274876d" valueTypeId="31b0fb27-bcf6-4e30-b2cb-7789128cd59b"/>
     <selectionType typeId="0c40e966-90f1-4177-a0bc-d9541711f8b2" valueTypeId="120bdcc0-380d-4425-bc4a-38b9dd3dfce9"/>
     <listType typeId="d16ab124-b67a-4790-8d71-f84a3097026a" valueTypeId="8acda1dd-c003-43e4-a0e9-664fbad91092"/>
     <managerType typeId="a4fa2879-c988-4dfa-8dfd-2c0cdd1b4dd3" valueTypeId="70b4657e-2dd4-49a0-8a58-0b32931dab50"/>
@@ -239,10 +237,10 @@
       <objectType typeId="fed110fb-037d-4828-a814-e302d4778ec8" valueTypeId="d210f18f-fb02-42f2-acde-d9aa13aeb5c0"/>
       <rowType typeId="8ae200ed-9659-4288-ab7d-1651777bc3b7" valueTypeId="46a37c75-60c9-47ed-81bb-651985a73220"/>
     </producedTypes>
-    <name>ТрудовойСтаж</name>
+    <name>ТрудоваяКнижка</name>
     <synonym>
       <key>ru</key>
-      <value>Трудовой стаж</value>
+      <value>Трудовая книжка</value>
     </synonym>
     <comment></comment>
     <attributes uuid="43f00a58-6182-4738-80b9-216ae8287b1b">

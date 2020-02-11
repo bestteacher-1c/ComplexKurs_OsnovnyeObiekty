@@ -114,7 +114,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ФамилияИмяОтчествоПриИзменении</name>
+        <name>ФамилияПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ФамилияРасширеннаяПодсказка</name>
@@ -170,7 +170,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ФамилияИмяОтчествоПриИзменении</name>
+        <name>ИмяПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
@@ -226,7 +226,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ФамилияИмяОтчествоПриИзменении</name>
+        <name>ОтчествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтчествоРасширеннаяПодсказка</name>

@@ -13,4 +13,5 @@
   </picture>
   <content>CommonCommand.СообщитьДатуИВремя</content>
   <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
+  <content>CommonForm.ПерваяФорма</content>
 </mdclass:Subsystem>

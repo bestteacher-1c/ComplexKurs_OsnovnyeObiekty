@@ -647,7 +647,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТрудовойСтаж</segments>
+          <segments>Объект.ТрудоваяКнижка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -660,7 +660,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудовойСтаж.LineNumber</segments>
+              <segments>Объект.ТрудоваяКнижка.LineNumber</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -708,7 +708,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудовойСтаж.МестоРаботы</segments>
+              <segments>Объект.ТрудоваяКнижка.МестоРаботы</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -760,7 +760,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудовойСтаж.Должность</segments>
+              <segments>Объект.ТрудоваяКнижка.Должность</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -812,7 +812,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудовойСтаж.ДатаПриема</segments>
+              <segments>Объект.ТрудоваяКнижка.ДатаПриема</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -864,7 +864,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудовойСтаж.ДатаУвольнения</segments>
+              <segments>Объект.ТрудоваяКнижка.ДатаУвольнения</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -1088,7 +1088,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Трудовой стаж</value>
+        <value>Трудовая книжка</value>
       </title>
       <extendedTooltip>
         <name>Группа4РасширеннаяПодсказка</name>

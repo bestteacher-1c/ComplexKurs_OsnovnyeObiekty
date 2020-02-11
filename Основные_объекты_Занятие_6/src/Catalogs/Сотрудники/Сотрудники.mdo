@@ -281,10 +281,10 @@
       <objectType typeId="fed110fb-037d-4828-a814-e302d4778ec8" valueTypeId="d210f18f-fb02-42f2-acde-d9aa13aeb5c0"/>
       <rowType typeId="8ae200ed-9659-4288-ab7d-1651777bc3b7" valueTypeId="46a37c75-60c9-47ed-81bb-651985a73220"/>
     </producedTypes>
-    <name>ТрудовойСтаж</name>
+    <name>ТрудоваяКнижка</name>
     <synonym>
       <key>ru</key>
-      <value>Трудовой стаж</value>
+      <value>Трудовая книжка</value>
     </synonym>
     <comment></comment>
     <attributes uuid="43f00a58-6182-4738-80b9-216ae8287b1b">
