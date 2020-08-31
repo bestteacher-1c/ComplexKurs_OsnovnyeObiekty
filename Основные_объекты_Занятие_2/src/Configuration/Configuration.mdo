@@ -12,27 +12,22 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="70770354-d839-41cd-864e-9e8ce2f6618c"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ce341cb-413c-4425-90f7-821e52efb2bc"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f62d7b4-c4c9-4b42-ab1b-5b6f761cafec"/>
-  <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor></vendor>
-  <version></version>
-  <updateCatalogAddress></updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Торговля</subsystems>
