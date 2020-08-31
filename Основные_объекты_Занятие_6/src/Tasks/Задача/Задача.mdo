@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Задача</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Task.Задача.StandardAttribute.Description</inputByString>
   <inputByString>Task.Задача.StandardAttribute.Number</inputByString>
@@ -38,7 +37,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -48,11 +46,9 @@
       <key>ru</key>
       <value>Сотрудник</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Сотрудники</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
@@ -66,11 +62,9 @@
       <key>ru</key>
       <value>Должность</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Должности</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
@@ -84,11 +78,9 @@
       <key>ru</key>
       <value>Подразделение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Подразделения</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
@@ -102,7 +94,6 @@
       <key>ru</key>
       <value>Задачи по исполнителю</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelImportant</group>
     <commandParameterType/>
     <representation>Auto</representation>

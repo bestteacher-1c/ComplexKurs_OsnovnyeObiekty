@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Виды контрагентов</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="6d412a91-7d7e-41e1-a068-798721190475">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Юридическое лицо</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="417763ff-0184-4b0b-b94b-ed119df2cc9d">
     <name>ФизическоеЛицо</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Физическое лицо</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="84a70986-2587-43f9-a07e-0ef705ef2264">
     <name>Филиал</name>
@@ -35,6 +32,5 @@
       <key>ru</key>
       <value>Филиал</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

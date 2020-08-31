@@ -242,6 +242,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:GraphicalSchemeExtInfo"/>
   </attributes>
   <commandInterface>
     <navigationPanel/>

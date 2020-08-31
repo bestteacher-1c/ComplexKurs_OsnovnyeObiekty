@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Единицы измерения</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
@@ -35,14 +34,12 @@
       <key>ru</key>
       <value>Полное наименование</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">

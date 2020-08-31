@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="d458cc07-caf6-46e4-b50e-f57e542b0c32" valueTypeId="07fd13d4-c6ad-4225-a5cb-66ab0b21f098"/>
     <valueManagerType typeId="60d2d58f-dfb2-44fd-956a-ef4b05a8e6ca" valueTypeId="949a13fe-f962-41d2-b732-0972de86355d"/>
+    <valueKeyType typeId="bb4273be-aff5-5876-a59c-adb4c4b66022" valueTypeId="11d046fe-6d22-5639-8558-e34ef20a8ac4"/>
   </producedTypes>
   <name>УчетПоСериям</name>
   <synonym>
     <key>ru</key>
     <value>Учет по сериям</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

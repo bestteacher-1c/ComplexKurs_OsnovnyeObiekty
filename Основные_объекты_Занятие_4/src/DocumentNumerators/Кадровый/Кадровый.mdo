@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Кадровый</value>
   </synonym>
-  <comment></comment>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

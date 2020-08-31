@@ -10,24 +10,19 @@
     <key>ru</key>
     <value>Виды номенклатуры</value>
   </synonym>
-  <comment></comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -39,7 +34,6 @@
       <key>ru</key>
       <value>Товар</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="80719a3b-56a7-47c3-8548-8b50c1809a20">
     <name>Услуга</name>
@@ -47,7 +41,6 @@
       <key>ru</key>
       <value>Услуга</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7f3e2fc1-b2b6-4938-a7b3-58af28674c75">
     <name>Материал</name>
@@ -55,6 +48,5 @@
       <key>ru</key>
       <value>Материал</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Журнал торговых документов</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.Поступление</registeredDocuments>
   <registeredDocuments>Document.Реализация</registeredDocuments>
@@ -20,7 +19,6 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment></comment>
     <references>Document.Поступление.Attribute.Контрагент</references>
     <references>Document.Реализация.Attribute.Контрагент</references>
   </columns>
@@ -30,7 +28,6 @@
       <key>ru</key>
       <value>Сумма документа</value>
     </synonym>
-    <comment></comment>
     <references>Document.Поступление.Attribute.СуммаДокумента</references>
     <references>Document.Реализация.Attribute.СуммаДокумента</references>
   </columns>

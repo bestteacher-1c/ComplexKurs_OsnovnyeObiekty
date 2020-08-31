@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Единицы измерения</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
@@ -36,14 +35,12 @@
       <key>ru</key>
       <value>Полное наименование</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -58,7 +55,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -68,7 +64,6 @@
       <key>ru</key>
       <value>Номенклатура с единицей измерения</value>
     </synonym>
-    <comment></comment>
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType>
       <types>CatalogRef.ЕдиницыИзмерения</types>

@@ -13,7 +13,6 @@
     <key>ru</key>
     <value>Остатки товаров</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
@@ -23,7 +22,6 @@
       <key>ru</key>
       <value>Количество</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -31,7 +29,6 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -42,11 +39,9 @@
       <key>ru</key>
       <value>Товар</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Установка цен</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.УстановкаЦен.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -32,11 +31,9 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -53,18 +50,15 @@
       <key>ru</key>
       <value>Цены номенклатуры</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="8a57af4d-15c0-4fa3-a23b-e6bb5b6d0ef3">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
         <value>Номенклатура</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -76,7 +70,6 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -85,7 +78,6 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

@@ -13,7 +13,6 @@
     <key>ru</key>
     <value>Продажа</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>BusinessProcess.Продажа.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -35,7 +34,6 @@
       <key>ru</key>
       <value>Форма бизнес процесса</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

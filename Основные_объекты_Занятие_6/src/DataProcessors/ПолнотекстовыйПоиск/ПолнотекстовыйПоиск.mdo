@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Полнотекстовый поиск</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПолнотекстовыйПоиск.Form.Форма</defaultForm>
   <forms uuid="f11d0db9-bd2a-4694-bcb6-08c270e15af0">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

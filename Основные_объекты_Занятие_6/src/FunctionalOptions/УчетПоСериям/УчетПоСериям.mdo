@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Учет по сериям</value>
   </synonym>
-  <comment></comment>
   <location>Constant.УчетПоСериям</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Серии</content>
