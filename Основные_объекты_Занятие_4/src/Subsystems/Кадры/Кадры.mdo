@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70026172-44c4-4312-8441-fef063b9695b">
+  <name>Кадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Кадры</picture>
+  </picture>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Enum.ПолФизическихЛиц</content>
+  <content>Document.ПриказОПриеме</content>
+  <content>Document.ПриказОбУвольнении</content>
+  <content>DocumentJournal.Кадровый</content>
+  <content>Catalog.Должности</content>
+</mdclass:Subsystem>

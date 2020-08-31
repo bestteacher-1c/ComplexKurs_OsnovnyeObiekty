@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f656bec1-23aa-4e14-9b80-6b9e4562fdc6">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Предприятие</picture>
+  </picture>
+  <content>Constant.НазваниеОрганизации</content>
+  <content>Constant.ЮридическийАдрес</content>
+  <content>Constant.ИНН</content>
+  <content>Constant.ДатаРегистрации</content>
+  <content>Constant.УчетПоСериям</content>
+  <content>Constant.УчетПоСкладам</content>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>
