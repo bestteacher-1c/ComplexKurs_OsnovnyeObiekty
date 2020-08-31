@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d369bd6-35e2-4fdc-99ff-3c9f9acee6d6">
+  <producedTypes>
+    <selectionType typeId="357903e3-e8b6-4ecf-b0d2-2da3b430d4c9" valueTypeId="9d5c9ff1-2255-4a3f-b223-a7f37972d058"/>
+    <listType typeId="2e64044e-6196-4710-8268-c706a81feace" valueTypeId="75f5b0c8-3cca-4027-9e23-9f428b147075"/>
+    <managerType typeId="6d0fe3e1-8c19-4461-9593-9fbe1e228316" valueTypeId="5a41a8e1-6bf6-4546-83c1-ae220501f728"/>
+  </producedTypes>
+  <name>Кадровый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал кадровых документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Кадровый.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриказОПриеме</registeredDocuments>
+  <registeredDocuments>Document.ПриказОбУвольнении</registeredDocuments>
+  <columns uuid="efa4141b-7ace-434d-a246-f7f23e58ea30">
+    <name>Работник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник</value>
+    </synonym>
+    <references>Document.ПриказОПриеме.Attribute.Сотрудник</references>
+    <references>Document.ПриказОбУвольнении.Attribute.Сотрудник</references>
+  </columns>
+  <columns uuid="95975a6a-2c76-4f9d-9bba-4f486e4cbfa4">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.ПриказОПриеме.Attribute.Подразделение</references>
+    <references>Document.ПриказОбУвольнении.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="60a60a93-2ff0-4e46-a022-b3cd2347fb37">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <references>Document.ПриказОПриеме.Attribute.Должность</references>
+    <references>Document.ПриказОбУвольнении.Attribute.Должность</references>
+  </columns>
+  <forms uuid="3b28c088-6605-472a-b235-c4d1f421eddf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>
