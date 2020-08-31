@@ -5,5 +5,4 @@
   <unset id="13322b22-3960-4d68-93a6-fe2dd7f28ca3" name="FavoritePanel"/>
   <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
   <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
-  <unset id="70f09214-5a70-49d4-9e67-031bb1f2480a" name="ToolsPanel"/>
 </cai:ClientApplicationInterface>
