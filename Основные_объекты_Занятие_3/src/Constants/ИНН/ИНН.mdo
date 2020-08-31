@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="e01d2054-eb3c-4f5d-9ff6-7205f6538907" valueTypeId="d056f1d4-358e-4ae8-a30b-0564f94ef585"/>
     <valueManagerType typeId="ac549328-f7f7-43d9-9520-fdb7d0f3bdd4" valueTypeId="84918623-260c-4efa-b4a0-cb07ed8f3fcd"/>
+    <valueKeyType typeId="ed922526-1c75-5b9f-9150-0fefbcbeaf27" valueTypeId="68f80d0d-a188-5353-b96b-6e4436adc2f7"/>
   </producedTypes>
   <name>ИНН</name>
   <synonym>
     <key>ru</key>
     <value>ИНН</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers>

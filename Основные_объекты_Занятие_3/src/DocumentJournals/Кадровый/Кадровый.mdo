@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Журнал кадровых документов</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DocumentJournal.Кадровый.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПриказОПриеме</registeredDocuments>
@@ -21,7 +20,6 @@
       <key>ru</key>
       <value>Работник</value>
     </synonym>
-    <comment></comment>
     <references>Document.ПриказОПриеме.Attribute.Сотрудник</references>
     <references>Document.ПриказОбУвольнении.Attribute.Сотрудник</references>
   </columns>
