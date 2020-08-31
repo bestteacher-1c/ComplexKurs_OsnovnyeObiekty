@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a88374b-6d0c-4ac2-b613-dd564474aaf0">
+  <producedTypes>
+    <objectType typeId="c4f7ddfd-ebb0-4317-9b11-c304ea0879a5" valueTypeId="076c95cd-9709-4ae7-9fad-f29ac92f3905"/>
+    <refType typeId="726e801a-e315-4e82-b499-11b7d5ef375b" valueTypeId="b7909d93-df2a-47d9-8c17-f0bc3a8064c3"/>
+    <selectionType typeId="5455a578-c0d8-461b-8508-6af876cd318a" valueTypeId="7885a5e1-51d0-484e-bad9-1b3b4e1cedcf"/>
+    <listType typeId="c6447c65-08d0-43dd-8ccb-643d5d5ca95d" valueTypeId="211dbd1c-6641-413a-b336-8e8434f12ad2"/>
+    <managerType typeId="3cad9935-4152-47b8-8f59-80595320b03b" valueTypeId="977b9a7a-d573-4fa1-9525-e8b4605709df"/>
+    <containerType typeId="46082511-8c5f-46e6-b0ff-4b0788b5b456" valueTypeId="72ec4c13-6f8e-47c2-b9a3-6d0f57681d40"/>
+  </producedTypes>
+  <name>ДопРеквизитыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп реквизиты номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Склады</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
