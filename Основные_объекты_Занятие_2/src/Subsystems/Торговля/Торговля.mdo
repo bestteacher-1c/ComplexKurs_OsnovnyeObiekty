@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Торговля</picture>
   </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>

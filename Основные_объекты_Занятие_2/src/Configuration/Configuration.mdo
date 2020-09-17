@@ -30,8 +30,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Торговля</subsystems>
   <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.Торговля</subsystems>
   <subsystems>Subsystem.Кадры</subsystems>
   <subsystems>Subsystem.Сервис</subsystems>
   <subsystems>Subsystem.ДляПрограммиста</subsystems>
@@ -46,4 +46,11 @@
   <constants>Constant.ДатаРегистрации</constants>
   <constants>Constant.УчетПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.СтавкаНалога</constants>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
 </mdclass:Configuration>
