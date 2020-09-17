@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Кадры</picture>
   </picture>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Должности</content>
 </mdclass:Subsystem>

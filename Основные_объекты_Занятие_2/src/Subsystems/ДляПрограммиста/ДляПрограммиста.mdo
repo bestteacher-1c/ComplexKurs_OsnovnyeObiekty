@@ -11,4 +11,9 @@
   <content>Constant.ИНН</content>
   <content>Constant.УчетПоСериям</content>
   <content>Constant.ДатаРегистрации</content>
+  <content>CommonPicture.Торговля</content>
+  <content>CommonPicture.Предприятие</content>
+  <content>CommonPicture.Кадры</content>
+  <content>CommonPicture.Сервис</content>
+  <content>CommonPicture.Деньги</content>
 </mdclass:Subsystem>
