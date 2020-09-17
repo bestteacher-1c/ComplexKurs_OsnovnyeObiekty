@@ -48,6 +48,7 @@
   <constants>Constant.ДатаРегистрации</constants>
   <constants>Constant.УчетПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.СтавкаНалога</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
@@ -65,4 +66,6 @@
   <enums>Enum.ПолФизическихЛиц</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

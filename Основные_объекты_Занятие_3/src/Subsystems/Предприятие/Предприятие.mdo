@@ -16,5 +16,7 @@
   <content>Constant.ДатаРегистрации</content>
   <content>Constant.УчетПоСериям</content>
   <content>Constant.УчетПоСкладам</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.НашиЦены</content>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>
