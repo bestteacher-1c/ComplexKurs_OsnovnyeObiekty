@@ -60,12 +60,12 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриказОПриеме</documents>
   <documents>Document.ПриказОбУвольнении</documents>
-  <documents>Document.Поступление</documents>
-  <documents>Document.Реализация</documents>
+  <documents>Document.УстановкаЦен</documents>
   <documentNumerators>DocumentNumerator.Кадровый</documentNumerators>
   <documentJournals>DocumentJournal.Кадровый</documentJournals>
-  <documentJournals>DocumentJournal.Торговый</documentJournals>
   <enums>Enum.ПолФизическихЛиц</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

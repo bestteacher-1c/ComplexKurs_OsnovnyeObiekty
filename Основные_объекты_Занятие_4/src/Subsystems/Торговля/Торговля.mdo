@@ -14,7 +14,4 @@
   <content>Catalog.КонтактныеЛица</content>
   <content>Catalog.Серии</content>
   <content>Catalog.Номенклатура</content>
-  <content>Document.Поступление</content>
-  <content>Document.Реализация</content>
-  <content>DocumentJournal.Торговый</content>
 </mdclass:Subsystem>
