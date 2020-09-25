@@ -361,7 +361,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -647,7 +647,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТрудоваяКнижка</segments>
+          <segments>Объект.ТрудовойСтаж</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
@@ -660,7 +660,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудоваяКнижка.LineNumber</segments>
+              <segments>Объект.ТрудовойСтаж.LineNumber</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -708,7 +708,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудоваяКнижка.МестоРаботы</segments>
+              <segments>Объект.ТрудовойСтаж.МестоРаботы</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -760,7 +760,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудоваяКнижка.Должность</segments>
+              <segments>Объект.ТрудовойСтаж.Должность</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -812,7 +812,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудоваяКнижка.ДатаПриема</segments>
+              <segments>Объект.ТрудовойСтаж.ДатаПриема</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -864,7 +864,7 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ТрудоваяКнижка.ДатаУвольнения</segments>
+              <segments>Объект.ТрудовойСтаж.ДатаУвольнения</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
@@ -990,7 +990,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1085,7 +1084,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Трудовая книжка</value>
+        <value>Трудовой стаж</value>
       </title>
       <extendedTooltip>
         <name>Группа4РасширеннаяПодсказка</name>
@@ -1131,7 +1130,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

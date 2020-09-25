@@ -200,7 +200,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ИмяПриИзменении</name>
+        <name>ФамилияПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
@@ -256,7 +256,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОтчествоПриИзменении</name>
+        <name>ФамилияПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтчествоРасширеннаяПодсказка</name>
@@ -329,7 +329,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

@@ -61,7 +61,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Список продаж</value>
+    <value>Реализации (Продажи)</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

@@ -29,6 +29,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:FormGroup">
     <name>Группа1</name>
@@ -144,7 +145,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ФамилияПриИзменении</name>
+        <name>ФамилияИмяОтчествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ФамилияРасширеннаяПодсказка</name>
@@ -200,7 +201,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ИмяПриИзменении</name>
+        <name>ФамилияИмяОтчествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
@@ -256,7 +257,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОтчествоПриИзменении</name>
+        <name>ФамилияИмяОтчествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтчествоРасширеннаяПодсказка</name>
@@ -329,7 +330,7 @@
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

@@ -12,10 +12,14 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="70770354-d839-41cd-864e-9e8ce2f6618c"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ce341cb-413c-4425-90f7-821e52efb2bc"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f62d7b4-c4c9-4b42-ab1b-5b6f761cafec"/>
-  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -39,7 +43,7 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Кадры</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
-  <commonModules>CommonModule.СерверВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
   <commonCommands>CommonCommand.СообщитьДатуИВремя</commonCommands>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
@@ -72,5 +76,9 @@
   <enums>Enum.ПолФизическихЛиц</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

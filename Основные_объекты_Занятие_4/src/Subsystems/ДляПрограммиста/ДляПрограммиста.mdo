@@ -22,8 +22,6 @@
   <content>Catalog.Должности</content>
   <content>Catalog.ЕдиницыИзмерения</content>
   <content>DocumentNumerator.Кадровый</content>
-  <content>Document.Поступление</content>
   <content>Document.ПриказОбУвольнении</content>
-  <content>Document.Реализация</content>
   <content>Document.ПриказОПриеме</content>
 </mdclass:Subsystem>

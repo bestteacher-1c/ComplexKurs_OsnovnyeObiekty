@@ -17,6 +17,7 @@
   <content>Constant.УчетПоСериям</content>
   <content>Constant.УчетПоСкладам</content>
   <content>CommonForm.ФормаКонстант</content>
+  <content>DataProcessor.ЗаполнениеКурсаВалюты</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>
