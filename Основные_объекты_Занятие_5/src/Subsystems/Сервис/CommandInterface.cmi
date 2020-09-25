@@ -3,7 +3,6 @@
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>DataProcessor.ЗаменаРодителя.StandardCommand.Open</commands>
       <commands>DataProcessor.ЗаменаОтветственногоНаСкладах.StandardCommand.Open</commands>
       <commands>CommonCommand.СообщитьДатуИВремя</commands>
       <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commands>

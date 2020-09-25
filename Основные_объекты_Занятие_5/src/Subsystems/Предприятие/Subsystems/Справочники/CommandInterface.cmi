@@ -5,10 +5,12 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -22,10 +24,12 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

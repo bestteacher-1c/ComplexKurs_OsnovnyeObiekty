@@ -10,7 +10,7 @@
   <name>Поступление</name>
   <synonym>
     <key>ru</key>
-    <value>Поступление</value>
+    <value>Поступление (Закупка)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Поступление.StandardAttribute.Number</inputByString>
@@ -61,7 +61,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Список покупок</value>
+    <value>Поступления (Закупки)</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

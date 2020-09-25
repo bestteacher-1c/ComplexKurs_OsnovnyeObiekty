@@ -11,7 +11,6 @@
     <picture>CommonPicture.Сервис</picture>
   </picture>
   <content>CommonCommand.СообщитьДатуИВремя</content>
-  <content>DataProcessor.ЗаменаРодителя</content>
   <content>DataProcessor.ЗаменаОтветственногоНаСкладах</content>
   <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
 </mdclass:Subsystem>

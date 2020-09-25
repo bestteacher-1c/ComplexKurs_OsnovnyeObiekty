@@ -25,7 +25,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.8</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
     <name>Русский</name>
     <synonym>
@@ -43,7 +43,7 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Кадры</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
-  <commonModules>CommonModule.СерверныйСВызовом</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
   <commonCommands>CommonCommand.СообщитьДатуИВремя</commonCommands>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
@@ -76,7 +76,9 @@
   <enums>Enum.ПолФизическихЛиц</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
-  <dataProcessors>DataProcessor.ЗаменаРодителя</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
 </mdclass:Configuration>

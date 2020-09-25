@@ -87,6 +87,7 @@
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
