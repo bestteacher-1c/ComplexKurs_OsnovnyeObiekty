@@ -387,17 +387,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.Attribute.Склад</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Подразделения</name>
 		<right>
 			<name>InteractiveDelete</name>

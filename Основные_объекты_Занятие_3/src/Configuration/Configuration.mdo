@@ -53,10 +53,10 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Должности</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
   <catalogs>Catalog.Серии</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриказОПриеме</documents>
