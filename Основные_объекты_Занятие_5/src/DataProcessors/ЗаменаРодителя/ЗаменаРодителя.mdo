@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b99a8d5-9317-4e88-a68b-96e8f3be4bbc">
+  <producedTypes>
+    <objectType typeId="734a4b25-0840-4c67-a4dd-d331f6ffe5bf" valueTypeId="73103285-6558-4854-940e-116f2e2fa6fe"/>
+    <managerType typeId="3479a6d1-92ad-42d0-b2f2-6ebb8a39b517" valueTypeId="a6ca2437-bee9-4e39-9702-f3639e80a086"/>
+  </producedTypes>
+  <name>ЗаменаРодителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена родителя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаменаРодителя.Form.Форма</defaultForm>
+  <attributes uuid="b95e09a1-2664-4d46-a7cb-91a7ceb2bba0">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70eb3407-95ec-4965-a781-233283d62c36">
+    <name>ИмяРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя родителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f81008a6-c4a1-4abf-9bda-0c2ae9b09f2b">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="024340a1-d85c-4e7b-9808-865c3a57af8a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="11132e06-5cac-444b-bdf3-70671e5ed793">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
