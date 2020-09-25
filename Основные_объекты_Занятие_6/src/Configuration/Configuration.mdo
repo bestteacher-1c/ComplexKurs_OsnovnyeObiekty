@@ -48,8 +48,8 @@
   <roles>Role.Основная</roles>
   <roles>Role.Кадровик</roles>
   <filterCriteria>FilterCriterion.КритерийНоменклатура</filterCriteria>
-  <commonModules>CommonModule.СерверВызовСервера</commonModules>
-  <commonModules>CommonModule.Сервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <definedTypes>DefinedType.КоличествоТМЦ</definedTypes>
@@ -62,6 +62,7 @@
   <constants>Constant.ДатаРегистрации</constants>
   <constants>Constant.УчетПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.СтавкаНалога</constants>
   <commonForms>CommonForm.ПерваяФорма</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
@@ -85,6 +86,7 @@
   <enums>Enum.Пол</enums>
   <enums>Enum.ВидыКонтрагентов</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
