@@ -69,10 +69,6 @@
         <segments>Запись.Сотрудник</segments>
       </paths>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>СотрудникПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>СотрудникРасширеннаяПодсказка</name>
       <id>6</id>
@@ -351,5 +347,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo"/>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

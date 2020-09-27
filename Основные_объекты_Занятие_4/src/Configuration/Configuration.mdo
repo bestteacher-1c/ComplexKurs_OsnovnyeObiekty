@@ -60,7 +60,6 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриказОПриеме</documents>
   <documents>Document.ПриказОбУвольнении</documents>
-  <documents>Document.УстановкаЦен</documents>
   <documentNumerators>DocumentNumerator.Кадровый</documentNumerators>
   <documentJournals>DocumentJournal.Кадровый</documentJournals>
   <enums>Enum.ПолФизическихЛиц</enums>
