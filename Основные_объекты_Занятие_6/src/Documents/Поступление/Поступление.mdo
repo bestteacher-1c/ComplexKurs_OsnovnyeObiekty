@@ -138,21 +138,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b0c16a1d-3e58-45ac-a0a0-5b8834299ad8">
-    <name>УстановитьЦеныПродажи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Установить цены продажи</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="c10508bc-8a5e-456e-a2c5-91b429a1d88f">
     <name>ФормаДокумента</name>
     <synonym>

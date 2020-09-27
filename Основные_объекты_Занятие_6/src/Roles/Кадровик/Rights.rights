@@ -2895,17 +2895,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Поступление.Attribute.УстановитьЦеныПродажи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.Attribute.ВыводитьВРезультатахЗапросаЗначенияСсылок</name>
 		<right>
 			<name>View</name>

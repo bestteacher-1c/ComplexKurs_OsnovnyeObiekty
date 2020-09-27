@@ -137,21 +137,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0e3e8f56-59dd-4d95-9ff7-000fa950f3eb">
-    <name>ПредоставитьСкидку</name>
-    <synonym>
-      <key>ru</key>
-      <value>Предоставить скидку</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="832e80bd-4f6b-4829-9a01-f1f2b6d3aaae">
     <name>ФормаДокумента</name>
     <synonym>
