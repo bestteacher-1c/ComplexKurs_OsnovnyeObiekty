@@ -47,6 +47,7 @@
   <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
   <roles>Role.Основная</roles>
   <roles>Role.Кадровик</roles>
+  <roles>Role.Маркетолог</roles>
   <filterCriteria>FilterCriterion.КритерийНоменклатура</filterCriteria>
   <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
   <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
