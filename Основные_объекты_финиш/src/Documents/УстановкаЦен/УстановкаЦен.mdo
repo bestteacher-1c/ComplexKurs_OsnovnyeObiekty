@@ -85,25 +85,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6c3f9a2d-ba9e-4872-89d6-34241573a87d">
-    <name>Скидка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Скидка</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>8</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="75799aad-f004-4a4f-8efa-081c57890dbb">
     <name>ФормаДокумента</name>
     <synonym>
