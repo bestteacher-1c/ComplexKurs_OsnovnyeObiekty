@@ -195,4 +195,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="15a592c1-77c8-48ec-ad96-114043b71134">
+    <name>КонтрагентыИспользующиеВалюту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты использующие валюту</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Валюты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

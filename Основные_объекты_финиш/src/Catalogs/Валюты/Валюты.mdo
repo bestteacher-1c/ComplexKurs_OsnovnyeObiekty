@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Валюты</value>
   </synonym>
+  <comment>Валюты</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
@@ -205,12 +206,15 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <commands uuid="9f666570-9a3d-4ae9-92a1-de7a78e09e1b">
-    <name>КонтрагентыИспользуютВалюту</name>
+    <name>КонтрагентыИспользующиеВалюту</name>
     <synonym>
       <key>ru</key>
-      <value>Контрагенты используют валюту</value>
+      <value>Контрагенты использующие валюту</value>
     </synonym>
-    <group>ActionsPanelTools</group>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Валюты</types>
+    </commandParameterType>
     <representation>Auto</representation>
   </commands>
 </mdclass:Catalog>

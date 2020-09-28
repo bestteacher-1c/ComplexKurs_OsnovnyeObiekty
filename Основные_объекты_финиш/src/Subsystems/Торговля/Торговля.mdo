@@ -20,4 +20,5 @@
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>InformationRegister.ЗначенияСвойствКонтрагентов</content>
   <content>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</content>
+  <content>CommonCommand.ОткрытьПервуюФорму</content>
 </mdclass:Subsystem>
