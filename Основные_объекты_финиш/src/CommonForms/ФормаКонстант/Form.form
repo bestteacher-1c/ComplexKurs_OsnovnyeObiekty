@@ -310,6 +310,10 @@
             <segments>НаборКонстант.УчетПоСкладам</segments>
           </paths>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>УчетПоСкладамПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>УчетПоСкладамРасширеннаяПодсказка</name>
           <id>6</id>

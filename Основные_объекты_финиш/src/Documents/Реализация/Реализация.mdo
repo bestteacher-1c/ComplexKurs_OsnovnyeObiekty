@@ -137,6 +137,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6dc50050-2fec-45d6-b2e6-020d1b530466">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="832e80bd-4f6b-4829-9a01-f1f2b6d3aaae">
     <name>ФормаДокумента</name>
     <synonym>

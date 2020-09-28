@@ -238,6 +238,18 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <datapath xsi:type="form:DataPath">
+          <segments>Объект.Контрагент</segments>
+        </datapath>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="form:FormChoiceListDesTimeValue">
+          <value xsi:type="core:BooleanValue"/>
+        </value>
+      </choiceParameters>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -367,6 +379,10 @@
               <segments>Объект.Товары.Номенклатура</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
             <id>44</id>
@@ -508,6 +524,12 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.Владелец</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.Товары.CurrentData.Номенклатура</segments>
+              </datapath>
+            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -523,6 +545,10 @@
               <segments>Объект.Товары.Количество</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыКоличествоРасширеннаяПодсказка</name>
             <id>53</id>
@@ -575,6 +601,10 @@
               <segments>Объект.Товары.Цена</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыЦенаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыЦенаРасширеннаяПодсказка</name>
             <id>56</id>
@@ -627,6 +657,10 @@
               <segments>Объект.Товары.Сумма</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыСуммаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыСуммаРасширеннаяПодсказка</name>
             <id>59</id>
@@ -662,6 +696,10 @@
               <segments>Объект.Товары.TotalСумма</segments>
             </paths>
           </footerDataPath>
+          <footerText>
+            <key>ru</key>
+            <value>Итого</value>
+          </footerText>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -682,6 +720,14 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>AfterDeleteRow</event>
+          <name>ТоварыПослеУдаления</name>
+        </handlers>
+        <handlers>
+          <event>OnEditEnd</event>
+          <name>ТоварыПриОкончанииРедактирования</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1004,6 +1050,10 @@
               <segments>Объект.Услуги.Количество</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>УслугиКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>УслугиКоличествоРасширеннаяПодсказка</name>
             <id>83</id>
@@ -1056,6 +1106,10 @@
               <segments>Объект.Услуги.Цена</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>УслугиЦенаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>УслугиЦенаРасширеннаяПодсказка</name>
             <id>86</id>
@@ -1108,6 +1162,10 @@
               <segments>Объект.Услуги.Сумма</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>УслугиСуммаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>УслугиСуммаРасширеннаяПодсказка</name>
             <id>89</id>
@@ -1143,6 +1201,10 @@
               <segments>Объект.Услуги.TotalСумма</segments>
             </paths>
           </footerDataPath>
+          <footerText>
+            <key>ru</key>
+            <value>Итого</value>
+          </footerText>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1163,6 +1225,14 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnEditEnd</event>
+          <name>УслугиПриОкончанииРедактирования</name>
+        </handlers>
+        <handlers>
+          <event>AfterDeleteRow</event>
+          <name>УслугиПослеУдаления</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1413,16 +1483,19 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>УстановитьЦеныПродажи</name>
-        <id>19</id>
+        <name>Склад</name>
+        <id>94</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Склад</segments>
+        </dataPath>
         <extendedTooltip>
-          <name>УстановитьЦеныПродажиРасширеннаяПодсказка</name>
-          <id>21</id>
+          <name>СкладРасширеннаяПодсказка</name>
+          <id>96</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1436,8 +1509,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>УстановитьЦеныПродажиКонтекстноеМеню</name>
-          <id>20</id>
+          <name>СкладКонтекстноеМеню</name>
+          <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1446,7 +1519,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>

@@ -26,7 +26,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.10</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
     <name>Русский</name>
     <synonym>

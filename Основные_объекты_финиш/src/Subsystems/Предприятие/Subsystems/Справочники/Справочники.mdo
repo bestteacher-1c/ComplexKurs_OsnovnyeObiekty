@@ -16,6 +16,6 @@
   <content>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</content>
   <content>InformationRegister.КурсыВалют</content>
   <content>InformationRegister.НашиЦены</content>
-  <content>InformationRegister.СкидкиКонтрагентам</content>
+  <content>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</content>
   <parentSubsystem>Subsystem.Предприятие</parentSubsystem>
 </mdclass:Subsystem>

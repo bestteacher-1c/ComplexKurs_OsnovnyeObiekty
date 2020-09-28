@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad609bd-a5e5-4c56-b0f5-20a8a8c416de">
+  <producedTypes>
+    <objectType typeId="069bf99c-801c-4c4d-a3b1-3228d5bfeb6b" valueTypeId="454cd9bd-b13d-4c18-8944-d0f61cf48f71"/>
+    <refType typeId="a0456179-e3d4-4896-9a29-ab1ee3236991" valueTypeId="432778e4-84f8-4b2f-880b-7d6a7b855126"/>
+    <selectionType typeId="6b28ed40-22ba-4b00-b96a-e458f3896c35" valueTypeId="416f8437-f96c-47df-8829-3df4da642a6a"/>
+    <listType typeId="12f5c2f9-ee41-41d4-b586-17803e89a78e" valueTypeId="5d7df252-3f55-4ed0-94a9-f6327720ddfc"/>
+    <managerType typeId="c48d4a69-26a8-4934-be42-3d338b47186a" valueTypeId="64731435-39ad-45d0-abf2-5eed5fc1124c"/>
+    <containerType typeId="f85c61a3-03ff-487b-a9a9-4202bebb9e7e" valueTypeId="49ca932c-dd75-4edd-919c-50bde3d5cc23"/>
+  </producedTypes>
+  <name>ДопСвойстваКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп свойства контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

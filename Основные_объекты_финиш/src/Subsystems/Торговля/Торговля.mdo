@@ -18,5 +18,4 @@
   <content>Document.Реализация</content>
   <content>DocumentJournal.Торговый</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
-  <content>InformationRegister.СкидкиКонтрагентам</content>
 </mdclass:Subsystem>
