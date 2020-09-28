@@ -307,4 +307,25 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Subsystem.Предприятие.Subsystem.Документы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Предприятие.Subsystem.Справочники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Предприятие</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
