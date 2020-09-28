@@ -97,6 +97,7 @@
   <informationRegisters>InformationRegister.СкидкиКонтрагентам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Продажа</businessProcesses>
   <tasks>Task.Задача</tasks>
 </mdclass:Configuration>

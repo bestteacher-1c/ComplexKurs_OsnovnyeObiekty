@@ -62,10 +62,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>100:2ababf2d-d22b-4992-aa1a-c47e46d96839</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.УчетПоСериям.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>

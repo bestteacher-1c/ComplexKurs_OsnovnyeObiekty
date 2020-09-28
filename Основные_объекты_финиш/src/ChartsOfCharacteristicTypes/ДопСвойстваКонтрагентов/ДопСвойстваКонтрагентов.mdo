@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad609bd-a5e5-4c56-b0f5-20a8a8c416de">
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5c42c78-c99a-4e5d-8842-fdb918d6e7b8">
   <producedTypes>
-    <objectType typeId="069bf99c-801c-4c4d-a3b1-3228d5bfeb6b" valueTypeId="454cd9bd-b13d-4c18-8944-d0f61cf48f71"/>
-    <refType typeId="a0456179-e3d4-4896-9a29-ab1ee3236991" valueTypeId="432778e4-84f8-4b2f-880b-7d6a7b855126"/>
-    <selectionType typeId="6b28ed40-22ba-4b00-b96a-e458f3896c35" valueTypeId="416f8437-f96c-47df-8829-3df4da642a6a"/>
-    <listType typeId="12f5c2f9-ee41-41d4-b586-17803e89a78e" valueTypeId="5d7df252-3f55-4ed0-94a9-f6327720ddfc"/>
-    <managerType typeId="c48d4a69-26a8-4934-be42-3d338b47186a" valueTypeId="64731435-39ad-45d0-abf2-5eed5fc1124c"/>
-    <containerType typeId="f85c61a3-03ff-487b-a9a9-4202bebb9e7e" valueTypeId="49ca932c-dd75-4edd-919c-50bde3d5cc23"/>
+    <objectType typeId="56d2bf95-958c-4975-b8c7-ecd65c693148" valueTypeId="c27aa186-5ad4-4df7-b8f4-cd6d521615d5"/>
+    <refType typeId="7b13915c-a99d-457c-b64b-329da844ec2f" valueTypeId="e23e587d-53d7-4a85-8347-14d66e1c982f"/>
+    <selectionType typeId="6bfbcf04-b050-4184-b386-91c5d9e03829" valueTypeId="06cb10db-0a74-4e2a-8f5e-32d01831572a"/>
+    <listType typeId="f594343f-64f6-403d-952e-63cb9d298113" valueTypeId="f666d470-96e5-462c-b8c6-0ba35282d10d"/>
+    <managerType typeId="8d220296-1d43-4d2a-af30-35ebe4fe8608" valueTypeId="e65ef6be-98ef-453b-9076-7f3a9b692e92"/>
+    <containerType typeId="fcd0d5a0-e105-4506-99b9-a12a13d80554" valueTypeId="82647458-1828-4a2b-a768-271fca1a1db3"/>
   </producedTypes>
   <name>ДопСвойстваКонтрагентов</name>
   <synonym>
@@ -14,24 +14,24 @@
     <value>Доп свойства контрагентов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов.StandardAttribute.Description</inputByString>
   <inputByString>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <type>
-    <types>CatalogRef.Номенклатура</types>
-    <types>Boolean</types>
-    <types>CatalogRef.Сотрудники</types>
     <types>String</types>
-    <types>Date</types>
     <types>Number</types>
-    <types>CatalogRef.Контрагенты</types>
-    <types>CatalogRef.Склады</types>
-    <types>CatalogRef.Подразделения</types>
+    <types>Date</types>
+    <types>Boolean</types>
     <types>CatalogRef.Валюты</types>
     <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Сотрудники</types>
     <numberQualifiers>
       <precision>10</precision>
     </numberQualifiers>
@@ -49,6 +49,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <editType>InDialog</editType>
+  <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:ChartOfCharacteristicTypes>
