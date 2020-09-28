@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="765139fc-1e36-433e-958d-13ffec8f98ad">
+  <name>Маркетолог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетолог</value>
+  </synonym>
+</mdclass:Role>

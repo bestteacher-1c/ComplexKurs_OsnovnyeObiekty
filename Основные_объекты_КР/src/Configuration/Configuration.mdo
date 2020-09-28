@@ -54,8 +54,6 @@
   <documents>Document.ЗаявкаНаТранспорт</documents>
   <documentNumerators>DocumentNumerator.КадровыеДокументы</documentNumerators>
   <enums>Enum.ЭтапыДоставки</enums>
-  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.СформированныеБригады</informationRegisters>
   <informationRegisters>InformationRegister.МестоположенияБригад</informationRegisters>
 </mdclass:Configuration>

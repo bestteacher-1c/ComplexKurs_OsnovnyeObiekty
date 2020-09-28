@@ -25,7 +25,6 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗаявкаНаТранспорт.Form.ФормаДокументаУправляемая</defaultObjectForm>
   <defaultListForm>Document.ЗаявкаНаТранспорт.Form.ФормаСпискаУправляемая</defaultListForm>
-  <auxiliaryObjectForm>Document.ЗаявкаНаТранспорт.Form.ФормаДокументаОбычная</auxiliaryObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
@@ -193,26 +192,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ac195167-b17f-4795-b2bc-d41348785e9a">
-    <name>ФормаСпискаОбычная</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка обычная</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="bb95fe70-33b2-492a-93df-93cb995b8202">
-    <name>ФормаДокументаОбычная</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа обычная</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="f4770f12-a65a-4934-b90b-bc5c42c4f4ba">
     <name>ФормаСпискаУправляемая</name>
     <synonym>

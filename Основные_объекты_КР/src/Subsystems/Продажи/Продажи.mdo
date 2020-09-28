@@ -15,5 +15,4 @@
   <content>Catalog.КонтактныеЛица</content>
   <content>Document.РасходнаяНакладная</content>
   <content>Document.ЗаявкаНаТранспорт</content>
-  <content>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</content>
 </mdclass:Subsystem>
