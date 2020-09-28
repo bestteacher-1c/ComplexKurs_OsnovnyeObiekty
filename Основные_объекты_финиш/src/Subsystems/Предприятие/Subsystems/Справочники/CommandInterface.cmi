@@ -31,12 +31,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>InformationRegister.СкидкиКонтрагентам.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -49,7 +43,6 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.СкидкиКонтрагентам.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -70,7 +63,6 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
       <commands>InformationRegister.НашиЦены.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.СкидкиКонтрагентам.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
