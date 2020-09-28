@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c615c40-dba7-4940-aa3c-d3160360eb93">
+  <producedTypes>
+    <objectType typeId="7a180d36-e506-4a7c-890e-bdbacb30f767" valueTypeId="7b600d58-3841-4621-b3ba-3ef40e26b87c"/>
+    <managerType typeId="7878a9c4-0ee0-45c6-95a9-3b5c1fc98678" valueTypeId="262ff9f1-fe1d-4338-98c5-63ad4904ea5e"/>
+  </producedTypes>
+  <name>ЗаменаОтветственногоНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена ответственного на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаменаОтветственногоНаСкладах.Form.Форма</defaultForm>
+  <attributes uuid="5e5230ab-f85c-443b-a164-48ac04055e65">
+    <name>КогоМеняем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кого меняем</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f86a7ef-2f29-438e-9bf4-e04e7f1a9a8a">
+    <name>НаКогоМеняем</name>
+    <synonym>
+      <key>ru</key>
+      <value>На кого меняем</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="72938404-9150-46cd-bb86-eb524c225203">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

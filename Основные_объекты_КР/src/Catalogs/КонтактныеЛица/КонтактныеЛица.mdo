@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1354dbeb-7cc9-49f4-b0b1-a3b64f23db2f">
+  <producedTypes>
+    <objectType typeId="35196b70-36be-4238-bf95-e824180fd07f" valueTypeId="4ce6752d-def1-4b34-8bef-729766dae5ff"/>
+    <refType typeId="d4f934a4-350b-487e-a842-8a1b68f74a72" valueTypeId="d5045d76-cd25-470d-829a-2180671b9ad5"/>
+    <selectionType typeId="36fe7363-10b5-4dc0-ab9d-65ddcb124095" valueTypeId="b7330274-c9b0-475e-8059-6cdae03233be"/>
+    <listType typeId="8db27830-c735-4934-aa8c-cc3d90294b40" valueTypeId="2c23dc35-f500-4945-a6db-563e0bc5d667"/>
+    <managerType typeId="5256761c-5aef-4a47-9a52-44d3af463ce8" valueTypeId="084aaa71-6993-4154-b015-27a7c4560885"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4b534eb4-6514-4da9-a620-feca4049272a">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

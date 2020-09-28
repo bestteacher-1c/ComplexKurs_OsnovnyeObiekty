@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c421234-4b3f-4729-83a8-c33dff287189">
+  <producedTypes>
+    <selectionType typeId="5af79ed4-c595-4cbd-8b9f-0c8291f15bb3" valueTypeId="7565c7bd-bd9d-432b-92a2-3756d011583a"/>
+    <listType typeId="fa828630-f79b-476e-99a4-0adaaeca4096" valueTypeId="5cd8010e-a42c-4db1-a8e3-fca153555b4f"/>
+    <managerType typeId="4108ad2d-b17f-42d9-bb35-37e01e6b3590" valueTypeId="1a8c9245-e443-43c1-9c79-a763bd1e0354"/>
+    <recordSetType typeId="6271a24c-bad9-43fd-bc7a-2bf10b87de05" valueTypeId="eb2d4f61-d9d6-42ff-be76-110323502a6c"/>
+    <recordKeyType typeId="05696373-b785-44ed-8e71-4fb9ccfe9864" valueTypeId="08cc5f33-1492-46c1-99e0-aac226a20d9f"/>
+    <recordType typeId="571d12e7-bac8-4b58-aced-c9b4a123736d" valueTypeId="0d2deba5-0db4-40c5-bed6-5dee6a2edb78"/>
+    <recordManagerType typeId="b6d53b9f-5043-4e8e-83b3-ff92b045f1db" valueTypeId="80e59349-6748-4ffd-8fbe-1ba7d4367dc7"/>
+  </producedTypes>
+  <name>ЗначенияСвойствКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="72db7263-95d9-465b-94cb-e45ff5a6120a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ДопСвойстваКонтрагентов</types>
+    </type>
+    <linkByType>
+      <field>InformationRegister.ЗначенияСвойствКонтрагентов.Dimension.Свойство</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="86bdaf69-7cda-4a8e-a1f8-169c17fb3b0f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7954de37-f2c8-4a1f-b454-742d1d43691c">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДопСвойстваКонтрагентов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

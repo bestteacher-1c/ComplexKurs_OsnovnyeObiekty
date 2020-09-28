@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f6d94a4-f6fe-4f5f-b58c-e01998c4d260">
+  <producedTypes>
+    <objectType typeId="04cbcaa1-a0a1-4d2a-accc-cbd6b79c8466" valueTypeId="0e0f34ff-1d2a-4f66-bc5c-664bf525d29b"/>
+    <refType typeId="ddc6570c-8611-448b-abe8-9298461586eb" valueTypeId="5ce41e5b-eaa9-406f-801f-a3ae010e75ce"/>
+    <selectionType typeId="8081e20c-d5ff-41d3-96de-98576441c607" valueTypeId="69ae416f-406c-46a6-88f3-fc790ec12992"/>
+    <listType typeId="e351a7ee-5202-4c89-b0a2-e47d3cd58500" valueTypeId="1fba4464-ca31-464a-b61f-8e6aed31f2ef"/>
+    <managerType typeId="0f76a963-1f4a-4d34-b958-247760748ef7" valueTypeId="7d62122a-474f-483d-9141-fafc0be8c347"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>35</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ecfa838c-d35c-4faa-aba8-c3fc85a21888">
+      <name>Уволенные</name>
+      <description>Уволенные</description>
+      <code xsi:type="core:NumberValue">
+        <value>99</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="33ee9e81-d182-4103-b649-b63bc44bdc4e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e44282b9-5711-4967-a659-eae102ef348c">
+    <name>ФормаСпискаСИерархией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка с иерархией</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca1db302-6729-4963-ae1b-5b0baa587741">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd97b4ec-c6df-432f-bd36-25467a6f2f62">
+    <name>ФормаСпискаБезИерархии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка без иерархии</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

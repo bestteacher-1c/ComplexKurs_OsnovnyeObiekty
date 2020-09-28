@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4667bbf7-88d2-45bb-bb35-6a9f1fe36811">
+  <producedTypes>
+    <objectType typeId="aaea01c5-2432-4f34-aa5a-4260d5c50e45" valueTypeId="eb50684c-3944-40a0-b7d5-d3c3fc72ad4c"/>
+    <refType typeId="4c95b025-a7b6-4ac4-b101-d611cb5b05bd" valueTypeId="ec8e1f3d-df90-4bfb-b616-90695af7ec97"/>
+    <selectionType typeId="e48776a0-a19f-406d-a980-d33c627cc297" valueTypeId="9412a019-651d-4c4e-b3e9-a7f3e596e20d"/>
+    <listType typeId="a96899ce-bfa1-4bf9-8fa6-79ece8df25cb" valueTypeId="2584222e-847c-4d4e-b36b-0910c14c7d35"/>
+    <managerType typeId="7cee96a8-bbfc-4daa-90d3-18961215eb76" valueTypeId="44d55ec3-136e-456c-9778-06ec0b8ff020"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ТранспортныеСредства.Form.ФормаСписка</defaultListForm>
+  <forms uuid="293bf025-abd0-4177-8a27-91a0a1bd1256">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

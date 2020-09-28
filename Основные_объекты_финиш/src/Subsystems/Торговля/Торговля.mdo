@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06f82b69-554a-4448-ab8f-3fce8b7892df">
+  <name>Торговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговля</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Торговля</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.Серии</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.Поступление</content>
+  <content>Document.Реализация</content>
+  <content>DocumentJournal.Торговый</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>InformationRegister.ЗначенияСвойствКонтрагентов</content>
+  <content>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</content>
+  <content>CommonCommand.ОткрытьПервуюФорму</content>
+</mdclass:Subsystem>

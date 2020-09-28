@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6190a6-b963-4bfd-a201-064dff38caf1">
+  <producedTypes>
+    <objectType typeId="c5547c0d-2044-4857-bdff-2afc40847224" valueTypeId="7356749d-dc6b-4c36-beaf-559ffbd49ff0"/>
+    <managerType typeId="9b9f9a84-5b37-41b7-9481-f5db3ce1ab9c" valueTypeId="12254115-306d-42d6-bebc-c3a7f9e6079f"/>
+  </producedTypes>
+  <name>ПолнотекстовыйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолнотекстовыйПоиск.Form.Форма</defaultForm>
+  <forms uuid="f11d0db9-bd2a-4694-bcb6-08c270e15af0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

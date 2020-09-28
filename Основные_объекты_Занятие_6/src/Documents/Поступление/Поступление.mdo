@@ -10,7 +10,7 @@
   <name>Поступление</name>
   <synonym>
     <key>ru</key>
-    <value>Поступление</value>
+    <value>Поступление (Закупка)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Поступление.StandardAttribute.Number</inputByString>
@@ -68,7 +68,6 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Поступление.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>InformationRegister.НашиЦены</registerRecords>
@@ -138,30 +137,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b0c16a1d-3e58-45ac-a0a0-5b8834299ad8">
-    <name>УстановитьЦеныПродажи</name>
+  <attributes uuid="77306f21-7e61-4bf4-b155-cc075d8fa341">
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Установить цены продажи</value>
+      <value>Склад</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>CatalogRef.Склады</types>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="c10508bc-8a5e-456e-a2c5-91b429a1d88f">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <tabularSections uuid="d92032ae-8abf-4bf7-966a-5f7002da677d">
     <producedTypes>
       <objectType typeId="430dd1f2-1293-4fc6-8539-4766f3b4cf64" valueTypeId="b41275a8-441b-43f0-9698-3d658c9cacee"/>

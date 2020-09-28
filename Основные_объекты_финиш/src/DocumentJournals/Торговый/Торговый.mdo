@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="547471a4-aca8-44f4-b5d7-3fae91a777b4">
+  <producedTypes>
+    <selectionType typeId="0896b235-7820-4469-bb37-d56dc2047397" valueTypeId="a35b3a48-16ac-4b81-8dcf-0857e9e88e41"/>
+    <listType typeId="769b0f03-f1ba-4a0b-8eed-0c53cdba7069" valueTypeId="e7ea9902-f13b-4228-bfa2-3776b0a09285"/>
+    <managerType typeId="23240ccc-5e1f-44d0-ac1a-0ba981c687a8" valueTypeId="f5d7d2ff-2bd9-41df-84a9-4bfac836d1c2"/>
+  </producedTypes>
+  <name>Торговый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал торговых документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Поступление</registeredDocuments>
+  <registeredDocuments>Document.Реализация</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал торговых документов</value>
+  </listPresentation>
+  <columns uuid="d05ed67d-6e80-4a9b-93b3-bd0a93984070">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.Поступление.Attribute.Контрагент</references>
+    <references>Document.Реализация.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="e9130dc7-a1a2-4e01-b227-1fb3ff54818d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.Поступление.Attribute.СуммаДокумента</references>
+    <references>Document.Реализация.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

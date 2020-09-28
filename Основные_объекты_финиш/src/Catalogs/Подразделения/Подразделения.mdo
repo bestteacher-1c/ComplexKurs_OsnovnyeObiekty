@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2498435e-5188-44a3-baba-6c3df2c03138">
+  <producedTypes>
+    <objectType typeId="0cca2dae-38a0-4246-99eb-8a7005c355e3" valueTypeId="a53c35e3-017c-48ce-907f-8a0a5a8d1844"/>
+    <refType typeId="e1b9eafc-ff71-4ffb-acdb-c53d672e7735" valueTypeId="f3945e0f-ed45-4721-a57d-ba215399d09c"/>
+    <selectionType typeId="b151c3d3-d656-4bff-a186-5069912a3bae" valueTypeId="d7b0b07a-76f5-48ee-a38e-6ac3d09c01c1"/>
+    <listType typeId="9ea898d7-b61d-46ec-bc6a-34418d14de81" valueTypeId="6f43ce2c-b159-41ee-b382-579c4dd3cace"/>
+    <managerType typeId="8df6e0cf-432f-403c-b609-f9d03122c3c4" valueTypeId="ae8088fb-a4da-4f1f-a88a-f1a2c0d04130"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Элемент структуры предприятия</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список подразделений</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1f66cd7d-a44c-4789-b140-b833fc1028b0">
+      <name>Бухгалтерия</name>
+      <description>Бухгалтерия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="d7a5b0b1-4f76-4c3e-b9cf-a3b9cd000a6c">
+      <name>Склад</name>
+      <description>Склад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4301d796-fce7-40f3-9b6d-974357ff4ec0">
+  <producedTypes>
+    <refType typeId="6be00e50-96a0-4c5a-ba8c-6cb1aa3251a4" valueTypeId="0086a6c3-f4ce-4162-bb5a-ef2fe2423d3d"/>
+    <listType typeId="39405838-4f11-46ef-93d9-bc83457a758d" valueTypeId="0dbcd6e1-7415-4f7a-bcb8-0787f272eaf5"/>
+    <managerType typeId="beb1d77c-cb56-48ab-9dde-bdff44ac1b0a" valueTypeId="3e126029-ec2f-4005-883c-fce391629a0e"/>
+  </producedTypes>
+  <name>ЭтапыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="4427cdf5-27b8-42b7-8771-baae266c3d07">
+    <name>ДоставкаНеНачата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка не начата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a219a50f-1132-4a10-97e8-9bda54b1845c">
+    <name>ВДорогеКПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>В дороге к покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d6afbac-493f-4b27-b8d9-cbcad2eacd22">
+    <name>УПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>У покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06759947-e9a0-4a0e-b8a9-7dde87e96f0a">
+    <name>ВДорогеНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>В дороге на склад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe6efe5a-8ec9-461b-be22-420f2ec1b633">
+    <name>ДоставкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка выполнена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

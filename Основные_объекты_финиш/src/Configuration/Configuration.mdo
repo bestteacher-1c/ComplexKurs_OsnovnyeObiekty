@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a65823c-9261-4452-83d0-8b405c3bbd1f">
+  <name>ОсновныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные объекты (Финиш)</value>
+  </synonym>
+  <comment>Занятие 6</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="982cce3d-1ab8-4858-bef4-597611fba1a1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2ef9d347-9e76-4c3c-a3c9-e4cc78557c2e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b045cdaa-bc69-48bc-9ecc-f8b8dadecdc7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="70770354-d839-41cd-864e-9e8ce2f6618c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ce341cb-413c-4425-90f7-821e52efb2bc"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f62d7b4-c4c9-4b42-ab1b-5b6f761cafec"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="756b928b-c01b-4c3b-a5fa-0474d1433730"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Основная</defaultRoles>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.Торговля</subsystems>
+  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <subsystems>Subsystem.ДляПрограммиста</subsystems>
+  <commonPictures>CommonPicture.Торговля</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.Кадры</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
+  <roles>Role.Основная</roles>
+  <roles>Role.Кадровик</roles>
+  <roles>Role.Маркетолог</roles>
+  <filterCriteria>FilterCriterion.КритерийНоменклатура</filterCriteria>
+  <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
+  <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
+  <definedTypes>DefinedType.КоличествоТМЦ</definedTypes>
+  <commonCommands>CommonCommand.ОткрытьПервуюФорму</commonCommands>
+  <commandGroups>CommandGroup.БизнесПроцессы</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ЮридическийАдрес</constants>
+  <constants>Constant.ИНН</constants>
+  <constants>Constant.ДатаРегистрации</constants>
+  <constants>Constant.УчетПоСериям</constants>
+  <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.СтавкаНалога</constants>
+  <commonForms>CommonForm.ПерваяФорма</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриказОПриеме</documents>
+  <documents>Document.ПриказОбУвольнении</documents>
+  <documents>Document.Поступление</documents>
+  <documents>Document.Реализация</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documentNumerators>DocumentNumerator.Кадровый</documentNumerators>
+  <documentJournals>DocumentJournal.Кадровый</documentJournals>
+  <documentJournals>DocumentJournal.Торговый</documentJournals>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ВидыКонтрагентов</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <dataProcessors>DataProcessor.ЗаполнениеКурсаВалюты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаменаОтветственногоНаСкладах</dataProcessors>
+  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоиск</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
+  <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>
+  <informationRegisters>InformationRegister.Адреса</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствКонтрагентов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.Продажа</businessProcesses>
+  <tasks>Task.Задача</tasks>
+</mdclass:Configuration>

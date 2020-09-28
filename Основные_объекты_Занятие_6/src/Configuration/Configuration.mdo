@@ -26,7 +26,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.10</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="cebe0e81-7449-47a9-9ccb-972c6735b540">
     <name>Русский</name>
     <synonym>
@@ -47,12 +47,14 @@
   <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
   <roles>Role.Основная</roles>
   <roles>Role.Кадровик</roles>
+  <roles>Role.Маркетолог</roles>
   <filterCriteria>FilterCriterion.КритерийНоменклатура</filterCriteria>
   <commonModules>CommonModule.ОбщийМодульНаСервереМожноВызватьСКлиента</commonModules>
   <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <definedTypes>DefinedType.КоличествоТМЦ</definedTypes>
+  <commonCommands>CommonCommand.ОткрытьПервуюФорму</commonCommands>
   <commandGroups>CommandGroup.БизнесПроцессы</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
@@ -94,7 +96,6 @@
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>
   <informationRegisters>InformationRegister.Адреса</informationRegisters>
-  <informationRegisters>InformationRegister.СкидкиКонтрагентам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.Продажа</businessProcesses>

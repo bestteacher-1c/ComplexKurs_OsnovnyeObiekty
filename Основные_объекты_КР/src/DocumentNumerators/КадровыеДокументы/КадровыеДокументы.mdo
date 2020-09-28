@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e050c6cc-5abc-41ec-8cf7-44e9a8a84dbe">
+  <name>КадровыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы</value>
+  </synonym>
+  <numberType>String</numberType>
+  <numberLength>5</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

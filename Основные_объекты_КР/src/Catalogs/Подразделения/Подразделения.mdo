@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cac91e4-5031-4608-b9d6-a402b2e3ea7e">
+  <producedTypes>
+    <objectType typeId="ab9d612d-584b-48ea-90b8-c0a7d634d9a3" valueTypeId="e2584a6b-cda1-4a09-aa73-6581c424e527"/>
+    <refType typeId="bcfc15c2-e29f-4985-9a6c-f24034644b95" valueTypeId="a89a3d01-f4ea-4a82-b9da-c01c72c2d5a8"/>
+    <selectionType typeId="4f24d618-58b9-4958-bdb8-3adb79776101" valueTypeId="6d961e18-c953-43e5-9a79-0a44cd6299d2"/>
+    <listType typeId="97d9268d-96d4-4c79-9d8b-430288d54fe5" valueTypeId="004b9f26-146e-491c-93a7-85a404500de6"/>
+    <managerType typeId="febc163b-8df1-411b-9b45-adb01cade66a" valueTypeId="c973cacd-6f1b-4728-ac51-1455e1cdb303"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e394bce7-1c6b-4a01-bf62-094bb90d96ce">
+      <name>ТранспортныйОтдел</name>
+      <description>Транспортный отдел</description>
+      <code xsi:type="core:NumberValue">
+        <value>99</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

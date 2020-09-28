@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffacbf39-0ba1-4b02-9138-c67ee56d4e08">
+  <producedTypes>
+    <managerType typeId="9c95d9d9-99d9-4f70-8fe5-b63bdda2413e" valueTypeId="303f70a3-7a8d-483f-a356-da5f6f76437c"/>
+    <valueManagerType typeId="c98262b3-260a-424f-b53a-71e0d7234703" valueTypeId="d5a5cb75-2cb4-45c2-80cb-5e289142e65f"/>
+    <valueKeyType typeId="4be1cf95-3e22-5b79-853f-951e42fb28de" valueTypeId="bbbd4774-94a3-5c1d-8e97-147e81744752"/>
+  </producedTypes>
+  <name>СуммаПокупкиДляБесплатнойДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма покупки, достаточная для бесплатной доставки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

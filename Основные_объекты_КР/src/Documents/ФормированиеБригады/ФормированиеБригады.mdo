@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4026a69-c59c-4e4d-862e-805c783c8f96">
+  <producedTypes>
+    <objectType typeId="d5a9892c-ecde-4502-88d0-4fe8c38c4a74" valueTypeId="f4621d1c-6b36-4dbc-9cd6-f1a76f1d5b7d"/>
+    <refType typeId="a83c5097-270d-4d7f-984b-f7764cb8b124" valueTypeId="038a57ca-fe0c-437e-a4b9-23cc38706369"/>
+    <selectionType typeId="e5ee43b0-ccb4-40bf-8582-c42b1085d64a" valueTypeId="78b68d96-aa39-41ef-8aca-8229963d5fb7"/>
+    <listType typeId="eb7cbd59-03be-4c9d-ad42-bb64a8ce942a" valueTypeId="4ffd83d1-1ab6-4602-89c5-594e338a8805"/>
+    <managerType typeId="32ac62d1-6581-4c37-9704-16f0a80ac12d" valueTypeId="260073bd-008f-46af-8897-adc3640a4456"/>
+  </producedTypes>
+  <name>ФормированиеБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФормированиеБригады.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>5</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФормированиеБригады.Form.ФормаДокументаУправляемая</defaultObjectForm>
+  <auxiliaryObjectForm>Document.ФормированиеБригады.Form.ФормаДокументаОбычная</auxiliaryObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.СформированныеБригады</registerRecords>
+  <attributes uuid="e3afe54a-59e8-4fb7-b697-45a801c37395">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Должность</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.Должности.Водитель</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7d42fd6-c905-45de-a20d-c36f62a95f45">
+    <name>ПервыйГрузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый грузчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Должность</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.Должности.Грузчик</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23f4c519-5b71-48f9-97b2-03688b799609">
+    <name>ВторойГрузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второй грузчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Должность</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Catalog.Должности.Грузчик</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66c55c67-edd8-4526-87a1-1c721ddbaf52">
+    <name>ВодительДопущенВрачомКРейсам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель допущен врачом к рейсам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d60d4391-253d-415f-8e46-eae2d0d8c6d1">
+    <name>БригадаПрошлаИнструктажПоТБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бригада прошла инструктаж по ТБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6eeee99a-ee2d-4304-857d-b51a829586e0">
+    <name>Машина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48dca8c5-8a11-4dcf-9fc4-aaa2dd53761f">
+    <name>НачальноеЗначениеСчетчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное значение счетчика</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="44ee965a-2509-41b5-8a5b-26c635078605">
+    <name>ФормаДокументаОбычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77939f09-c535-4c08-abda-dbb4c6aec7c9">
+    <name>ФормаДокументаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

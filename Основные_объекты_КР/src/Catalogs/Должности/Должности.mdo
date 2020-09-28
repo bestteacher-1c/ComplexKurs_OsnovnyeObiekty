@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4316d5d-9369-4f29-ae94-285396bcbbc7">
+  <producedTypes>
+    <objectType typeId="99524a5b-7bf3-46c0-b062-0f7e9d6adf23" valueTypeId="10969571-7fe1-43f3-80fb-6d1019c81c12"/>
+    <refType typeId="6c7da972-de58-49d7-97f7-4ed54fe0339e" valueTypeId="7ef24d5b-78f2-4928-9225-b7792032c9a2"/>
+    <selectionType typeId="5f7d3f3b-754b-4618-9278-cbc5d6a456cd" valueTypeId="ad5bb3b7-ad43-4b5f-bd44-97400a58b922"/>
+    <listType typeId="bbb9ae3a-8951-4be7-8362-30abc47675fe" valueTypeId="5f8e272e-39f5-46ea-98cc-c8d8642f469c"/>
+    <managerType typeId="ded2e80a-d918-4b03-a740-c94900c672bd" valueTypeId="39c4577f-9645-4b95-81c7-5329e5d0d56d"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cdb2629c-59ee-499c-b0fb-5d6765683dc4">
+      <name>Водитель</name>
+      <description>Водитель</description>
+      <code xsi:type="core:NumberValue">
+        <value>101</value>
+      </code>
+    </items>
+    <items id="bff6104a-3bf0-46ba-a2bb-bc4828c0dd43">
+      <name>Грузчик</name>
+      <description>Грузчик</description>
+      <code xsi:type="core:NumberValue">
+        <value>102</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
