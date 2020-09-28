@@ -18,4 +18,6 @@
   <content>Document.Реализация</content>
   <content>DocumentJournal.Торговый</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>InformationRegister.ЗначенияСвойствКонтрагентов</content>
+  <content>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</content>
 </mdclass:Subsystem>

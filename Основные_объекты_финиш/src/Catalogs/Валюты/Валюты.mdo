@@ -204,4 +204,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="9f666570-9a3d-4ae9-92a1-de7a78e09e1b">
+    <name>КонтрагентыИспользуютВалюту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты используют валюту</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

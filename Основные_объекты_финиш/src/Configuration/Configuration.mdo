@@ -94,6 +94,7 @@
   <informationRegisters>InformationRegister.НашиЦены</informationRegisters>
   <informationRegisters>InformationRegister.ФИОСотрудника</informationRegisters>
   <informationRegisters>InformationRegister.Адреса</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДопСвойстваКонтрагентов</chartsOfCharacteristicTypes>

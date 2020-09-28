@@ -53,6 +53,7 @@
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <definedTypes>DefinedType.КоличествоТМЦ</definedTypes>
+  <commonCommands>CommonCommand.ОткрытьПервуюФорму</commonCommands>
   <commandGroups>CommandGroup.БизнесПроцессы</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
