@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bff1178-155a-4b3f-a93a-7a0092d10a79">
+  <producedTypes>
+    <objectType typeId="c3e62641-f892-4c2a-8759-fab255d9d840" valueTypeId="a9114c42-5ba9-4d46-8ccb-ad7885aca25e"/>
+    <managerType typeId="1159a58d-892f-45f4-8c60-e19b4c2cb9dc" valueTypeId="10deed26-6203-4037-8f2f-e11f74a1e73d"/>
+  </producedTypes>
+  <name>ЗаполнениеКурсаВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение курса валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеКурсаВалюты.Form.Форма</defaultForm>
+  <forms uuid="57658264-cd96-470e-9949-968e455c9028">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
