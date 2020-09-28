@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dc8ec37-9cf6-4ee0-95c1-39f619e8b2f6">
+  <producedTypes>
+    <managerType typeId="3fccaec3-301d-4ed5-a265-70adad716797" valueTypeId="0c5a9b8e-a77c-4ea3-8dbf-32c328b92ee5"/>
+    <valueManagerType typeId="a0e56197-6265-4ff8-a771-a8393e38ee4b" valueTypeId="509b6d6b-8d96-47dc-a9b8-205a8c4389a7"/>
+    <valueKeyType typeId="cc31bbc3-2197-5b7a-a9bb-4871f3e47f8e" valueTypeId="85bf3053-df9d-5114-a164-23056176d917"/>
+  </producedTypes>
+  <name>ЮридическийАдрес</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юридический адрес</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>60</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

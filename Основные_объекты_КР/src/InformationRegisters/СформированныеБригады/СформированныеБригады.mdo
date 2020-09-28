@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="797c33b6-bbac-41c4-b3a5-f113670486d7">
+  <producedTypes>
+    <selectionType typeId="61ed74ba-85c8-4b17-ad4f-c404ff4c42db" valueTypeId="fcd95e49-6911-48aa-a088-436fc0659840"/>
+    <listType typeId="34c58b31-a315-45ba-9601-f6167bab6abb" valueTypeId="3630258f-8c72-41e0-8311-a4d1415d84f2"/>
+    <managerType typeId="5b7688f5-298f-4a12-9536-2e4bd8231265" valueTypeId="ee4dfc73-dfc9-43d0-8957-53537535e582"/>
+    <recordSetType typeId="e3a70faf-f5f2-4e2b-9108-987919e805ee" valueTypeId="0ac43d3b-d1f5-4030-abb6-fbba75a0e036"/>
+    <recordKeyType typeId="83ef8995-fa0f-412b-a376-2b4c755e05c9" valueTypeId="18eae5dc-3cf7-49db-aed8-90aa4b7c1b8a"/>
+    <recordType typeId="50463f28-9594-43c5-957d-2a7b9ffd84dd" valueTypeId="c65a0e82-4bdb-44f3-b47e-11c9034d2e76"/>
+    <recordManagerType typeId="937f0ab2-aeda-45fd-8cd0-98784a64dac7" valueTypeId="d6fe922a-b96a-408d-9635-80147cb85bf7"/>
+  </producedTypes>
+  <name>СформированныеБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сформированные бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="56d1ea29-27fc-4bf8-bb0e-4fe9c0faf551">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="647fd4ec-1e8a-409e-b490-e686689bc062">
+    <name>ПервыйГрузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый грузчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d458f39-167f-409f-ac43-52a6e061a42c">
+    <name>ВторойГрузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второй грузчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="062e77e9-6026-48ac-88b8-fa9255e48d0e">
+    <name>НачальноеЗначениеСчетчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное значение счетчика</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="faa03b84-395a-4aeb-b010-3fbeb5341b9e">
+    <name>Машина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="22c4fa68-9c0b-4412-9389-409beb5e9c9b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

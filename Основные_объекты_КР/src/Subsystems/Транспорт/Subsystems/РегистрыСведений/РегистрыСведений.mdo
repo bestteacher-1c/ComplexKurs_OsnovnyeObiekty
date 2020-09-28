@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d32ec90a-de61-41e3-8b42-95c28c3235b4">
+  <name>РегистрыСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры сведений</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СформированныеБригады</content>
+  <content>InformationRegister.МестоположенияБригад</content>
+  <parentSubsystem>Subsystem.Транспорт</parentSubsystem>
+</mdclass:Subsystem>

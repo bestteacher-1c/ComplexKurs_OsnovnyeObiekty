@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e21a13f5-c1db-447f-b33d-c8e750afb6d4">
+  <producedTypes>
+    <selectionType typeId="bcbf510f-f25d-4a6f-ae85-9f50f94a11f1" valueTypeId="0b88537d-c658-4702-acf6-6c444e943f57"/>
+    <listType typeId="b13cd2dc-5505-45f5-9df2-e04132630223" valueTypeId="22ffc655-05a2-4e8d-9df1-f6d38807102f"/>
+    <managerType typeId="980171b9-2aab-4e00-90d3-fc6abef82074" valueTypeId="32ab36d8-0c86-456f-af72-12e4d059d4c7"/>
+    <recordSetType typeId="809c7554-15b1-44fd-a1bf-09bddc3412fb" valueTypeId="bc615cc3-5590-4637-a7a6-22ad36d900ec"/>
+    <recordKeyType typeId="d79537b5-338a-4bff-9bad-2703c129eaa4" valueTypeId="80897e11-c93c-4ab4-ae97-a9ea345d46c2"/>
+    <recordType typeId="6510ec40-164c-46b5-a341-4ff5dbe9ea6e" valueTypeId="1785e9c8-6057-43a8-bc7a-c86cfd50fefe"/>
+    <recordManagerType typeId="64ea69b1-accc-4144-aeb2-aae5101eddec" valueTypeId="2fd59a84-6265-4a40-858d-ba8939fdb26e"/>
+  </producedTypes>
+  <name>МестоположенияБригад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местоположения бригад</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="4c3a66da-8351-4129-bc0b-be3ff14f9f6e">
+    <name>ЭтапДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЭтапыДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4d36f935-fc6b-4406-8ca1-9df59208998e">
+    <name>Машина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a503dae5-e659-4b5b-89d6-2873e775457a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
