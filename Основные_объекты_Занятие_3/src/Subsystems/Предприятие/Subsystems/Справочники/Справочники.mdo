@@ -12,5 +12,6 @@
   <content>Catalog.Серии</content>
   <content>Catalog.Склады</content>
   <content>Catalog.ЕдиницыИзмерения</content>
+  <content>InformationRegister.КурсыВалют</content>
   <parentSubsystem>Subsystem.Предприятие</parentSubsystem>
 </mdclass:Subsystem>

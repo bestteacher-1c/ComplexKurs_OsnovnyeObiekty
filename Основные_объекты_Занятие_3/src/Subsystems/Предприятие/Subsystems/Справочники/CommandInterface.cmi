@@ -5,10 +5,12 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -16,15 +18,15 @@
       <group>NavigationPanelImportant</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
       <commands>Catalog.Серии.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
-      <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
       <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

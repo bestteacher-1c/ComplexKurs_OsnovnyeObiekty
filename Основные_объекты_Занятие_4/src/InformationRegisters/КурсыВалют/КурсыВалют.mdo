@@ -59,6 +59,18 @@
       <value>1</value>
     </fillValue>
   </resources>
+  <attributes uuid="701fd3a0-cc0f-4434-b929-b6aec1a718fc">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <dimensions uuid="46d84cc8-b8fd-4fe9-b0cd-9f46b5b31534">
     <name>Валюта</name>
     <synonym>
