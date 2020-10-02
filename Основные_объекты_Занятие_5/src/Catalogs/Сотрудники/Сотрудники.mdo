@@ -119,24 +119,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="b8aa3039-cb24-4bf8-829c-d7b152f2e20f">
-      <name>Неприкасаемые</name>
-      <description>Неприкасаемые</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-      <isFolder>true</isFolder>
-    </items>
-    <items id="bdb074e0-9505-4f4d-8a70-a5e94a92eac2">
-      <name>Принятые</name>
-      <description>Принятые</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-      <isFolder>true</isFolder>
-    </items>
-  </predefined>
+  <predefined/>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
