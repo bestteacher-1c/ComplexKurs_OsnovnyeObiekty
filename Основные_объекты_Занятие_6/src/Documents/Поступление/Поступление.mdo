@@ -63,6 +63,7 @@
     <key>ru</key>
     <value>Поступления (Закупки)</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
